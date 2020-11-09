@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Menus</title>
+</head>
+
+<body>
+    <header>
+        <h1>Menus</h1>
+    </header>
+
+    <main>
+        <div class="">
+
+            <!--  AÑADIR MENU  -->
+            <div class="formulario">
+                <h3>Añade un menu</h3>
+                <div class="inline row">
+                    <input id="numMenu" type="text" placeholder="Número menú" />
+                    <input id="primeroMenu" type="text" placeholder="Primer plato" />
+                    <input id="segundoMenu" type="text" placeholder="Segundo plato" />
+                    <input id="postreMenu" type="text" placeholder="Postre" />
+                    <input id="preciomenu" type="text" placeholder="Precio" />
+                </div>
+                <button onclick="addMenu()">AÑADIR</button>
+            </div>
+
+
+
+
+            <!--  EDITAR MENU  -->
+            <div class="formulario">
+                <h3>Edita un menu</h3>
+                <div id="tipoMenu" class="">
+                </div>
+            </div>
+
+            <!--  ELIMINAR MENU  -->
+            <div class="formulario">
+                <h3>Eliminar menu</h3>
+                <div class="inline">
+                    <input id="numDelete" type="text" placeholder="Elimina un menu" />
+                    <button onclick="deleteMenu()">ELIMINAR</button>
+                </div>
+            </div>
+
+
+
+            <diV id="mensaje"></diV>
+            <diV id="resultado"></diV>
+
+
+    </main>
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
